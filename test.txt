@@ -1,0 +1,26 @@
+#include <iostream>
+#include "core.h"
+
+using namespace std;
+
+class Test
+  public:
+    string test;
+end;
+
+void function print(string str)
+  cout << str;
+end
+
+void function println(string str)
+  cout << str << "\n";
+end
+
+int function main()
+  ArrayList<string> test;
+  test.add("Hello World");
+  print("testing ");
+  println(test.get(0));
+  return 0;
+end
+
